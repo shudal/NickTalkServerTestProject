@@ -1,0 +1,275 @@
+{
+	"info": {
+		"_postman_id": "dd54ba4d-27c7-4ec1-b31e-75141ecf9f31",
+		"name": "NickTalk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ListenNewMeesageEvent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/NickTalk/ListenNewMessageEvent",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"NickTalk",
+						"ListenNewMessageEvent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendMessage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/NickTalk/sendMessage?toAddress=0x26e2dcb60a99e455b8320478ec16f443cf0f19f9&content=hello, Wudal!&version=9",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"NickTalk",
+						"sendMessage"
+					],
+					"query": [
+						{
+							"key": "toAddress",
+							"value": "0x26e2dcb60a99e455b8320478ec16f443cf0f19f9"
+						},
+						{
+							"key": "content",
+							"value": "hello, Wudal!"
+						},
+						{
+							"key": "version",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get version",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/NickTalk/getVersion1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"NickTalk",
+						"getVersion1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set version1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/NickTalk/setVersion1?version=9",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"NickTalk",
+						"setVersion1"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getNewMessageEvents2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/NickTalk/getNewMessageEvents2?hash=0x9f9322fd1451ddf5b25d876fd7853bca13c778cce5c64b7297c5ded09ea78ca7",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"NickTalk",
+						"getNewMessageEvents2"
+					],
+					"query": [
+						{
+							"key": "hash",
+							"value": "0x9f9322fd1451ddf5b25d876fd7853bca13c778cce5c64b7297c5ded09ea78ca7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set Version2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/NickTalk/setVersion2?version=9",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"NickTalk",
+						"setVersion2"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transactionReceiptRemotecall",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/NickTalk/transactionReceiptRemotecall",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"NickTalk",
+						"transactionReceiptRemotecall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get update msg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/NickTalk/transactionReceiptRemotecall",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"NickTalk",
+						"transactionReceiptRemotecall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newMessageOberverbable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/NickTalk/sendMsg2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"NickTalk",
+						"sendMsg2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
